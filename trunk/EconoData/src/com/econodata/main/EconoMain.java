@@ -1,5 +1,6 @@
 package com.econodata.main;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -258,8 +259,17 @@ public class EconoMain {
 		new ConfigurationUIDialog(shell,this).open();
 	}
 
-	protected void updateWithFundamentus() {
-		// TODO Auto-generated method stub
+	private void updateWithFundamentus() {
+
+		File fileToDelete=new File(DATA_STOCKCONTENT_DAT);
+		boolean deleted = fileToDelete.delete();
+		logger.info("Deleting the cache data:"+DATA_STOCKCONTENT_DAT);
+		
+		logger.info("Reloading data");
+		initData();
+		
+		logger.info("Refreshing...");
+		refresh();
 		
 	}
 
