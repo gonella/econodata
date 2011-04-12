@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/javacsv.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/apache-mime4j-0.4.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.3rdparty.httpclient-4.0-beta2.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.3rdparty.httpcore-4.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.3rdparty.httpcore-nio-4.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.core.vietspider.common-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.core.vietspider.htmlexplorer-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.core.vietspider.htmlparser-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.core.vietspider.webclient-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.core.vietspider.widget-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/headvances.core.vietspider.xmlparser-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/HTMLParser2/httpmime-4.0-beta2.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.12.jar"/>
+	<classpathentry kind="lib" path="lib/SWT/ctabletree.jar"/>
+	<classpathentry kind="lib" path="lib/SWT/grid-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/SWT/pshelf-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/sorting.jar"/>
+	<classpathentry kind="lib" path="lib/SWT/swt.jar"/>
+	<classpathentry kind="lib" path="lib/SWT/swing2swt.jar"/>
+	<classpathentry kind="lib" path="lib/JFreechart/jfreechart-1.0.13-swt.jar"/>
+	<classpathentry kind="lib" path="lib/JFreechart/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="lib/watermarker-0.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/cdatetime-0.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/rome-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
