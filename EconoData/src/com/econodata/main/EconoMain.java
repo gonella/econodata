@@ -268,6 +268,7 @@ public class EconoMain {
 		initData();
 		
 		refresh();
+		
 	}
 	public static final int nColumnExtra=2;
 
